@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e3ef1a73f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>CodeLab | Blog</title>
+  </head>
+  <body>
+    <div id="toast-container"></div>
+    <main>
+      <button id="new-post-btn" class="new-post__button" aria-label="Adicionar novo post">+</button>
+      <header class="header">
+        <h1 class="header__title"><span>Code</span>Lab</h1>
+        <div class="search-form">
+          <input id="search-posts" class="search-form__input" type="text" placeholder="Busque por uma postagem" />
+          <i class="fa-solid fa-magnifying-glass search-form__icon"></i>
+        </div>
+      </header>
+
+      <section class="container">
+        <ul class="posts-list"></ul>
+      </section>
+    </main>
+
+    <div class="modal-container" id="modal-container">
+      <div class="modal">
+        <div class="modal__header">
+          <h2 class="modal__title">Adicionar Novo Post</h2>
+          <button id="close-modal-btn" class="modal__close-button">&times;</button>
+        </div>
+        <form id="new-post-form" class="form">
+          <div class="form__field">
+            <label for="post-title" class="form__label">Título</label>
+            <input type="text" id="post-title" class="form__input" required />
+          </div>
+          <div class="form__field">
+            <label for="post-content" class="form__label">Conteúdo</label>
+            <textarea id="post-content" class="form__input" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="button button--primary">Salvar</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-container" id="confirm-delete-modal">
+      <div class="modal">
+        <h2 class="modal__title">Confirmar Exclusão!</h2>
+        <p class="modal__text">Você tem certeza que deseja excluir este post? Esta ação não pode ser desfeita.</p>
+        <div class="modal__actions">
+          <button id="cancel-delete-btn" type="button" class="button button--secondary">Cancelar</button>
+          <button id="confirm-delete-btn" type="button" class="button button--danger">Excluir</button>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script type="module" src="js/api.js"></script>
+    <script type="module" src="js/toast.js"></script>
+    <script type="module" src="js/elements.js"></script>
+    <script type="module" src="js/ui.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

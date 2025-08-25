@@ -1,0 +1,32 @@
+{
+  "artigos": [
+    {
+      "id": "add8",
+      "titulo": " SpaceX realiza hoje o 10º voo da Starship, maior nave espacial do mundo",
+      "conteudo": "A programação orientada a objetos (POO) é um paradigma que utiliza 'objetos' para representar dados e métodos. Este artigo explora os conceitos fundamentais da POO, incluindo classes, objetos, herança e polimorfismo",
+      "data": "2025-08-25T15:10:56.628Z",
+      "favorito": false
+    },
+    {
+      "id": "5cfd",
+      "titulo": "O que é linguagem de programação? Conheça as principais",
+      "conteudo": "Uma das mais populares vertentes da tecnologia da informação, a área de programação segue tendo muita demanda de trabalho justamente pela velocidade com que dispositivos tecnológicos vêm avançando.",
+      "data": "2025-08-25T16:35:58.042Z",
+      "favorito": false
+    },
+    {
+      "id": "1843",
+      "titulo": "GitHub agora permite fazer login sem precisar de senha",
+      "conteudo": "O GitHub anunciou nesta quarta-feira (12) o acesso a partir das passkeys, método de autenticação sem senhas. A novidade está disponível em uma versão beta pública e pode substituir a autenticação em dois fatores.",
+      "data": "2025-08-25T16:36:13.912Z",
+      "favorito": false
+    },
+    {
+      "id": "3b4f",
+      "titulo": "Por que os hiperlinks são azuis em sua maioria?",
+      "conteudo": "Quem navega na internet, certamente já percebeu que ela conta com diversos recursos para tornar a nossa vida mais fácil. Entre essas opções podemos mencionar os hiperlinks – uma palavra ou termo clicável que direciona o leitor",
+      "data": "2025-08-25T16:36:28.551Z",
+      "favorito": false
+    }
+  ]
+}
