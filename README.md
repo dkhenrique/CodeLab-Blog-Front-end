@@ -1,7 +1,6 @@
 # CodeLab | Blog Front-end
 
 ![Captura de tela do projeto CodeLab](./screenshot.png)
-*(Dica: Tire uma captura de ecrã do seu projeto e salve-a como `screenshot.png` na raiz do projeto para que esta imagem apareça)*
 
 ## 📝 Descrição
 
